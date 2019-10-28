@@ -1,3 +1,5 @@
+// Tree 
+// íŠ¸ë¦¬í˜• 
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -23,7 +25,7 @@ void makeRightChild(Tree* bt, Tree* subtree) {
 	bt->rightChild = subtree;
 }
 
-// ÀüÀ§ ¼øÈ¸
+// ì „ìœ„ ìˆœíšŒ
 void PreorderTraverse(Tree* root) {
 	
 	if (root == NULL) {
@@ -35,7 +37,7 @@ void PreorderTraverse(Tree* root) {
 	PreorderTraverse(root->rightChild);
 }
 
-// ÁßÀ§ ¼øÈ¸
+// ì¤‘ìœ„ ìˆœíšŒ
 void InorderTraverse(Tree* root) {
 
 	if (root == NULL) {
@@ -48,7 +50,7 @@ void InorderTraverse(Tree* root) {
 	InorderTraverse(root->rightChild);
 }
 
-// ÈÄÀ§ ¼øÈ¸
+// í›„ìœ„ ìˆœíšŒ
 void PostorderTraverse(Tree* root) {
 
 	if (root == NULL) {
