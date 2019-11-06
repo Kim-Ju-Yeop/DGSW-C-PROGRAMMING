@@ -1,4 +1,4 @@
-// ╪╠ец а╓╥д
+// Л└═М┐²Л═∙К═╛
 #include <stdio.h>
 
 void selection(int arr[], int size) {
