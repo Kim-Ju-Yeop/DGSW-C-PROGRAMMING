@@ -1,4 +1,4 @@
-// ¹öºí Á¤·Ä
+// ë²„ë¸”ì •ë ¬
 #include <stdio.h>
 
 void bubble(int arr[], int size) {
