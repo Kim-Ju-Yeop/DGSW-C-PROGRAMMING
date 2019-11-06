@@ -1,4 +1,4 @@
-// »ðÀÔ Á¤·Ä
+// ì‚½ìž… ì •ë ¬
 #include <stdio.h>
 
 void insertion(int arr[], int size) {
